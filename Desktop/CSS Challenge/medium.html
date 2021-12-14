@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Advance CSS</title>
+
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            background-color: seashell;
+        }
+
+        .grid img {
+            display: grid;
+            width: 50%;
+        }
+
+        a:link, a:visited {
+        background-color: bisque;
+        color: black;
+        padding: 15px 25px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        margin-bottom: 2em;
+        }
+
+    @media screen and (max-width: 992px) {
+        .column {
+        width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .column {
+        width: 100%;
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/81MZYYErdLL._AC_SX679_.jpg">
+            <br> Stuffed Animal $25
+            <p> Skye’s movie-accurate pilot uniform & soft hat are finely detailed & printed in rich jewel tones to bring the action off the big screen & into your living room! </p>
+            <a href="https://www.amazon.com/GUND-PAW-Patrol-Stuffed-Animal/dp/B08QVBKCZP/ref=sr_1_1_sspa?keywords=toys&qid=1639446710&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT0tBREQ3TTUzRTc0JmVuY3J5cHRlZElkPUEwMTg0ODExMlJQWllZQ0QxSlRXSSZlbmNyeXB0ZWRBZElkPUEwMDY0Mzc1MTVCOU5JWUcwTUw5QyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=" target="toy">Shop!
+            </a>
+            <br>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/7108HSmwBeL._AC_SX679_.jpg">
+            <br> Pull & Sing Puppy $30
+            <p> Push or pull the playful puppy using the cord to activate music while building gross motor skills </p>
+            <a href="https://www.amazon.com/VTech-Pull-and-Sing-Puppy/dp/B01MQ3YP7Y/ref=sr_1_6?keywords=toys&qid=1639446710&sr=8-6" target="toy">Shop!
+            </a>
+            <br>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/81qGvCw1BpL._AC_SX679_.jpg">
+            <br> Fidget Toy $14
+            <p> Push Bubble with Popping Sound, Different Rainbow Dinosaur Fidget Sensory Squeeze Toys Stress Reliever Tool T-Rex </p>
+            <a href="https://www.amazon.com/Lktvys-Dinosaur-Popping-Different-Reliever/dp/B09C1B29DZ/ref=sxin_13_pa_sp_search_thematic_sspa?cv_ct_cx=toys&keywords=toys&pd_rd_i=B09C1B29DZ&pd_rd_r=80f297d9-524a-45a5-ab14-be4a23eb8ba5&pd_rd_w=jtbC3&pd_rd_wg=PDQ49&pf_rd_p=0976d242-e639-4a45-a4ee-2165f252eaa0&pf_rd_r=RCS5JHS29T7F88D7RH0P&qid=1639446710&sr=1-2-a8004193-6951-43f6-852a-aff7dbba9115-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT0tBREQ3TTUzRTc0JmVuY3J5cHRlZElkPUEwNzk4ODEyOTFMSUNLNEFNMFlYJmVuY3J5cHRlZEFkSWQ9QTAwMTI4MDIxTFRYUFlDV1hHNTVMJndpZGdldE5hbWU9c3Bfc2VhcmNoX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ== target="toy">Shop!
+            </a>
+            <br>
+        </div>
+        <div class="item">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/91kStpfpe6L.__AC_SX300_SY300_QL70_FMwebp_.jpg">
+            <br> Kinetic Sand $10
+            <p> Kinetic Sand, Sandbox Playset with 1lb of Blue and 3 Molds, for Ages 3 and up </p>
+            <a href="https://www.amazon.com/Kinetic-Sand-Sandbox-Playset-Molds/dp/B08FCQSS8G/ref=sxin_15_ac_d_rm?ac_md=0-0-dG95cw%3D%3D-ac_d_rm_rm_rm&cv_ct_cx=toys&keywords=toys&pd_rd_i=B08FCQSS8G&pd_rd_r=80f297d9-524a-45a5-ab14-be4a23eb8ba5&pd_rd_w=DGcsl&pd_rd_wg=PDQ49&pf_rd_p=4ddd8e40-6b01-4726-9d0f-a100f252099e&pf_rd_r=RCS5JHS29T7F88D7RH0P&psc=1&qid=1639446710&sr=1-1-12d4272d-8adb-4121-8624-135149aa9081"toy">Shop!
+            </a>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/81Jbw2+cJhL._AC_SX679_.jpg">
+            <br> Coding Starter Kit for iPad $52
+            <p> From The Movie Paw Patrol: The Movie Skye Plush </p>
+            <a href="https://www.amazon.com/Osmo-Starter-Hands-Learning-Included/dp/B085NN5678/ref=sr_1_1_sspa?keywords=TOYS&qid=1639449200&s=toys-and-games&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzT0pONlpNRkk3UDdDJmVuY3J5cHRlZElkPUEwMzY5MjQwVEw3VDVIMjBQWktKJmVuY3J5cHRlZEFkSWQ9QTA4NjY4NzAzVTBBVzIzOUZFNVA2JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="toy">Shop!
+            </a>
+            <br>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/81htnbhDmBS._AC_SX679_.jpg">
+            <br> Dinosaur Toy $26
+            <p> Complete set of 9 dinosaur action figures, as well as a compelling Dino park mat that can hone their exploration skills. </p>
+            <a href="https://www.amazon.com/dp/B07MYTBV6N/ref=sspa_dk_detail_1?psc=1&pd_rd_i=B07MYTBV6N&pd_rd_w=x5CGn&pf_rd_p=65e66fb1-45e1-44fa-931c-e6ddaa2a8653&pd_rd_wg=Riyia&pf_rd_r=245WP52BSQGDN3FXDGNR&pd_rd_r=c7898d75-5479-4de0-84d7-afb458ccdc97&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFLTFRPWFo0M1FRTDUmZW5jcnlwdGVkSWQ9QTA0OTIwNDAxSVozNVVQOFZFODZSJmVuY3J5cHRlZEFkSWQ9QTEwMzg4NDYxSjk3WlQ5RDNOQzA1JndpZGdldE5hbWU9c3BfZGV0YWlsX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="toy">Shop!
+            </a>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/91P+Iy+DI0L._AC_SL1500_.jpg">
+            <br> Magnetic Dart Board $42
+            <p> 12pcs Magnetic Darts (Red Green Yellow) - Excellent Indoor Game and Party Games - Magnetic Dart Board Toys Gifts for 5 6 7 8 9 10 11 12 Year Old Boy Kids </p>
+            <a href="https://www.amazon.com/Magnetic-Dart-Board-Yellow-Excellent/dp/B088H39PXX/ref=pd_day0fbt_img_2/139-8801026-4144118?pd_rd_w=I8XOc&pf_rd_p=bcb8482a-3db5-4b0b-9f15-b86e24acdb00&pf_rd_r=JEQ1RED36VYNNGMRGM1T&pd_rd_r=dad5f15a-2692-4181-9b37-18f4dcd1942c&pd_rd_wg=g3uny&pd_rd_i=B088H39PXX&psc=1"toy">Shop!
+            </a>
+        </div>
+        <div class="item">
+            <img src="https://m.media-amazon.com/images/I/81Y57HoaNIL._AC_SL1500_.jpg">
+            <br> Elite Sportz Ring Toss Games for Kids
+            <p> Indoor Holiday Fun or Outdoor Yard Game for Adults & Family - Easy to Set Up w/ Compact Carry - Backyard Toys </p>
+            <a href="https://www.amazon.com/dp/B00NIJZISE/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B00NIJZISE&pd_rd_w=yMOpk&pf_rd_p=54ed5474-54a8-4c7f-a88a-45f748d18166&pd_rd_wg=Vl5Q0&pf_rd_r=EWH2QDY5ACRJKJAKQP9S&pd_rd_r=114984a8-3dfd-4d93-a907-32795856027b&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEzVEdCSjVJTlkwN1JaJmVuY3J5cHRlZElkPUEwMjYyMjUxMkVVQ0xRUUgzSldEQyZlbmNyeXB0ZWRBZElkPUEwMDY3OTY3M0JLQUFYWUZPMkVWMiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="toy">Shop!
+            </a>
+        </div>   
+    </div>
+</body>
+</html> 
