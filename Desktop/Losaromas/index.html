@@ -1,104 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <title>Los Aromas</title>
-    <style>
-      body {
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      }
-        </style>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
+<style>
+  body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+  }
+
+  body,
+  html {
+    height: 100%;
+  }
+
+  /* button */
+  .homebutton {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .homebutton {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .homebutton:hover {
+    background-color: black;
+    color: white;
+  }
+
+  /* subscribe */
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: rgb(252, 249, 248);
+  }
+
+  .forms {
+    max-width: 600px;
+    margin: auto;
+  }
+</style>
+
 <body>
-<!-- nav bar -->
-<nav>
-  <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="products2.html">Shop</a></li>
-      <li><a href="contactus.html">Contact</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-</nav>
-
-<!-- hero image -->
-<div class="hero-image">
-  <div class="hero-text">
-     <h1>Los Aromas de Alondra</h1>
-          <p>Handmade Coconut Wax Candles</p>
-            <!--button and link-->
-            <form style="display: inline" action="products2.html" method="get">
-              <button>Shop Now!</button>
-          </form>
+  <!-- hero image -->
+  <div class="hero-image">
+    <div class="hero-text">
+      <h1>Los Aromas de Alondra</h1>
+      <p>Handmade Coconut Wax Candles</p>
+      <!--button and link-->
+      <form style="display: inline" action="products2.html" method="get">
+        <button class="homebutton">Shop Now!</button>
+      </form>
+    </div>
   </div>
- </div>
 
- <header>
-  <h1>Let's Get Lit!</h1>
-    Sometimes all you need is a candle to help you relax, stay calm, while getting ready, after cleaning, and even to improve focus. Candles can trigger your brain to a better mindset or set a vibe!
-</header>
-
-<img src="melts.png" alt="street" style="max-width:500px;">
-<img src="lit.png" alt="street" style="max-width:500px;">
-
-<main class="main">
-  <div class="home">
-    <h1>Candle Love </h1> 
-       Your favorite fragrances for all seasons with single or double wicks and limited-edition artwork — plus our new holiday collection and amazing wax melts, exclusively online!
-       <p>
-         <!--button and link-->
-         <a href="products2.html" class="button">Shop Now!</a>
-       </div>
-</main> 
-        
-    
-</p>
-         Indulge the senses and mix and match glass, ceramic, deluxe and luxury candles in your favorite scents. <br>
-
-<div class="right-sidebar">
-  Made in small batches to enhance and ensure excellence
-</div>
-            
-
-<aside>
-  <form action="/action_page.php">
-    <div class="container">
-      <h2>Subscribe to our Newsletter</h2>
-      <p>Become a subscriber to learn first about exclusive promotions and new releases!</p>
+  <nav>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="products2.html">Shop</a>
+      <a href="contactus.html">Contact</a>
+      <a href="checkout.html" class="right"><i class="fa fa-shopping-cart" style="font-size:18px"></i></a>
     </div>
-  
-    <div class="container" style="background-color:white">
-      <input type="text" placeholder="Name" name="name" required>
-      <input type="text" placeholder="Email address" name="mail" required>
-      <label>
-        <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-      </label>
-    </div>
-  
-    <div class="container">
-      <input type="submit" value="Subscribe">
-    </div>
-  </form>
-</aside> 
-  
+  </nav>
 
-<footer class="footer"> 
-  <p> Copyright &copy; 2021 Alondra Ramirez for Road to Hire eCommerce Project</p>
+  <main>
+    <div class="rows">
+      <div class="side">
+        <h2>Let's Get Lit!</h2>
+        <p>Sometimes all you need is a candle to help you relax, stay calm, to study, while getting ready, or after
+          cleaning, and even
+          to improve focus. Candles can trigger your brain to a better mindset or set a vibe!</p>
+        <div class="fakeimg">
+          <img src="about.png" alt="candles">
+        </div>
+        <p>Indulge the senses and mix and match glass, ceramic, deluxe and luxury candles in your favorite scents.</p>
+        <h3>Hand Poured</h3>
+        <p>Your favorite fragrances for all seasons with single or double wicks and limited-edition artwork — plus our
+          new
+          holiday collection and amazing wax melts, exclusively online! <br>
+        </p>
+        <div class="fakeimg">
+          <img src="lit.png" alt="candles">
+          <img src="melts.png" alt="candles">
+        </div>
+      </div>
+      <div class="main">
+        <h2>PARTY FAVORS</h2>
+        <h5>Special Opportunity, Dec 14, 2021</h5>
+        <div class="fakeimg">
+          <img src="contact.png" alt="candles">
+        </div>
+        <p>Loved the way these candles turned out!</p>
+        <p>We had the opportunity of making 50 mini candles for a quinceañera as party favors. These 5 oz minis were so
+          much fun to make and smelled amazing! <br>
+          <br>
+          Scents used: Golden Rose and Sea Salt & Orchid; theme was chosen by our customer.</p>
+        <h2>MOST POPULAR</h2>
+        <h5>Top Requested Scents, Nov 18, 2021</h5>
+        <div class="fakeimg">
+          <img src="basket.png" alt="candles">
+        </div>
+        <p>Just a few names of our most popular candles:</p>
+        <p>
+          Black Raspberry Vanilla,
+          White Tea,
+          Bleu Chanel Cologne,
+          White Sage,
+          Peppermint Eucalyptus,
+          Golden Rose,
+          Pumkin Pecan Waffles,
+          Lavender, and
+          Black Ice
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <section>
+    <form action="/action_page.php">
+      <div class="container">
+        <h2>Subscribe to our Newsletter</h2>
+        <p>Become a subscriber to learn first about exclusive promotions and new releases!</p>
+      </div>
+
+      <div class="container forms" style="background-color:white">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="text" placeholder="Email address" name="mail" required>
+        <label>
+          <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+        </label>
+      </div>
+
+      <div class="container">
+        <input type="submit" value="Subscribe">
+      </div>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p> Copyright &copy; 2021 Alondra Ramirez for Road to Hire eCommerce Project</p>
     <!--logo-->
-<div class="grid-item"><img src="logo.png" alt="logo" style="width:100px;height:100px;">
-</div>
-<p>
-  <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank"  rel="noopener"></a>
-  <a href="https://twitter.com" class="fa fa-twitter" target="_blank" rel="noopener"></a>
-  <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" rel="noopener"></a>
-  <a href="https://google.com" class="fa fa-google" target="_blank" rel="noopener"></a>
-</p>
-</footer>
-
+    <div class="grid-item"><img src="logo.png" alt="logo" style="width:100px;height:100px;">
+    </div>
+    <p>
+      <a href="https://www.facebook.com" class="fa fa-facebook" target="_blank" rel="noopener"></a>
+      <a href="https://twitter.com" class="fa fa-twitter" target="_blank" rel="noopener"></a>
+      <a href="https://www.instagram.com" class="fa fa-instagram" target="_blank" rel="noopener"></a>
+      <a href="https://google.com" class="fa fa-google" target="_blank" rel="noopener"></a>
+    </p>
+  </footer>
 
 </body>
+
 </html>
